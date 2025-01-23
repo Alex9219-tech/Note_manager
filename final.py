@@ -17,6 +17,7 @@ for i in range(3):
 
 
 #Выводим данные внесенные пользователем
+print("-------------------------------")
 print('\nВы ввели следующие данные:')
 for key, value in note.items():
     print(f"{key.capitalize()}: {value}")
